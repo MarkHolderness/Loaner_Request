@@ -4,6 +4,7 @@
         <element label="Pick up reminder" max_length="255" name="pick_up_reminder" type="glide_date_time"/>
         <element label="Location to be used" max_length="40" name="location_to_be_used" type="string"/>
         <element label="Start date" mandatory="true" max_length="255" name="start_date" type="glide_date_time"/>
+        <element label="Overdue count" max_length="255" name="overdue_count" type="integer"/>
         <element label="Requested for" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
         <element choice="1" default="cmdb_ci_computer" label="Item type" max_length="40" name="item_type" type="choice">
             <choice>
@@ -12,6 +13,7 @@
                 <element inactive_on_update="false" label="Mobile Phone" sequence="1" value="cmdb_ci_mobile_device"/>
             </choice>
         </element>
+        <element label="Return reminder" max_length="255" name="return_reminder" type="glide_date_time"/>
         <element label="End date" mandatory="true" max_length="255" name="end_date" type="glide_date_time"/>
         <element choice="1" default="sc" label="Depot" max_length="40" name="depot" type="choice">
             <choice>
@@ -24,5 +26,6 @@
                 <element inactive_on_update="false" label="Other" sequence="6" value="other"/>
             </choice>
         </element>
+        <element label="Overdue reminder" max_length="255" name="last_overdue_reminder" type="glide_date_time"/>
     </element>
 </database>
