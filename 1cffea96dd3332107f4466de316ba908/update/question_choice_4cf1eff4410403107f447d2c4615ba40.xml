@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>2</order>
+        <published_ref/>
+        <question display_value="Where would you like to pick up this item?">40f1eff4410403107f447d2c4615ba2c</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-02 13:34:53</sys_created_on>
+        <sys_id>4cf1eff4410403107f447d2c4615ba40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>London</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">1cffea96dd3332107f4466de316ba908</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">1cffea96dd3332107f4466de316ba908</sys_scope>
+        <sys_update_name>question_choice_4cf1eff4410403107f447d2c4615ba40</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-02 13:34:53</sys_updated_on>
+        <text>London</text>
+        <value>london</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=4cf1eff4410403107f447d2c4615ba40"/>
+</record_update>
